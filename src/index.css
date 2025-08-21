@@ -144,19 +144,22 @@ body {
 
 /* ========== CUSTOM UTILITIES ========== */
 .gradient-text {
-  background: linear-gradient(135deg, #00ff88, #00d4ff);
+  /* background: linear-gradient(135deg, #00ff88, #00d4ff); */
+
+    background: linear-gradient(135deg, #ff6a00, #1100ff);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .neon-border {
-  border: 2px solid #00ff88;
-  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+  border: 2px solid #4964db;
+  box-shadow: 0 0 20px rgba(0, 128, 255, 0.3);
 }
 
 .hover-glow:hover {
-  box-shadow: 0 0 30px rgba(0, 255, 136, 0.5);
+  box-shadow: 0 0 30px rgba(25, 23, 163, 0.805);
   transform: translateY(-2px);
   transition: all 0.3s ease;
 }
@@ -174,12 +177,12 @@ body {
 }
 .portfolio-item:hover {
   background: rgba(0, 255, 136, 0.1);
-  border-color: #00ff88;
+  border-color: #c64b12;
   transform: translateY(-5px);
 }
 
 .section-divider {
-  background: linear-gradient(90deg, transparent, #00ff88, transparent);
+  background: linear-gradient(90deg, transparent, #00b3ff, transparent);
   height: 1px;
   width: 100%;
 }
@@ -191,7 +194,8 @@ body {
   transition: color 0.3s ease;
 }
 .nav-link:hover {
-  color: #00ff88;
+  color: #1cb7d2;
+  font-weight: bold;
 }
 .nav-link::after {
   content: '';
@@ -200,7 +204,7 @@ body {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #00ff88;
+  background-color: #0066ff;
   transition: width 0.3s ease;
 }
 .nav-link:hover::after {
